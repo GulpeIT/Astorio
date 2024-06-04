@@ -1,4 +1,5 @@
-package example;
+package astorio;
+
 
 import arc.*;
 import arc.util.*;
@@ -9,9 +10,9 @@ import mindustry.gen.*;
 import mindustry.mod.*;
 import mindustry.ui.dialogs.*;
 
-public class ExampleJavaMod extends Mod{
+public class Astorio extends Mod{
 
-    public ExampleJavaMod(){
+    public Astorio(){
         Log.info("Loaded ExampleJavaMod constructor.");
 
         //listen for game load event
